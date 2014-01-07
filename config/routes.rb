@@ -1,4 +1,13 @@
 CoolerThanYou::Application.routes.draw do
+
+root :to => "cooler#new"
+
+resources :cooler
+
+#get "cooler/new" => "cooler#new"
+post "/cooler_response" => "cooler#create"
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

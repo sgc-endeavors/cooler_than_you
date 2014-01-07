@@ -1,0 +1,2 @@
+module CoolerHelper
+end

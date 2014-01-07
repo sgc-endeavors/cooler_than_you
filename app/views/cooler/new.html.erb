@@ -1,0 +1,14 @@
+<% if @response == nil %>
+	<h1>The Coolmometer</h1>
+<% else %>
+	<h1><%= @response %> </h1>
+<% end %>
+<img src="/images/gerard.jpg" width="200"/>
+
+<%= form_tag("/cooler_response") do %>
+
+<h2>Am I cooler than Gerard?</h2>
+<%= button_tag "Yes I Am", name: "yes" %>
+<%= button_tag "No, I Am Not", name: "no" %>
+
+<% end %>
