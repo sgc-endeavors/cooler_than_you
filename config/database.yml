@@ -6,7 +6,7 @@
 development:
   adapter: postgresql
   host: localhost
-  database: cooler_than_you
+  database: "cooler_than_you"
   username: postgres
   password: postgres
   encoding: unicode
